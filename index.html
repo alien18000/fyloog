@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <nav class="container-xl mx-auto py-4 px-3 d-flex justify-content-between align-items-center">
+    <img src="./images/logo.svg" alt="logo">
+    <div class="d-none d-md-block text-decoration-none">
+      <a hrerf="#" class="ms-3 text-decoration-none">Features</a>
+      <a hrerf="#" class="ms-3 text-decoration-none">Team</a>
+      <a hrerf="#" class="ms-3 text-decoration-none">Sign in</a>
+    </div>
+    <i class="bi bi-list d-md-none"></i>
+  </nav>
+
+  <section>
+    <div class="container-xl mx-auto py-4 px-3 d-md-flex justify-content-between align-items-center flex-row-reverse">
+      <img src="./images/illustration-1.svg" class="img-fluid img-adjust">
+      <div class="text-center text-md-start mt-5 width-adjustA">
+        <h1 class="fs-2">All your files in one secure <br>location, accessible anywhere.</h1>
+        <p class="mt-4">Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+        <div class="d-md-flex gap-4">
+          <input placeholder="Enter your email..."
+            class="mt-4 mt-md-0 form-control w-75 mx-auto mx-md-0">
+          <button type="button" class="mt-3 mt-md-0 btn btn-primary mx-auto rounded-1">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-quotes">
+    <div class="container-xl mx-auto py-4 px-3 d-md-flex justify-content-between align-items-center flex-row-reverse">
+      <img src="./images/illustration-2.svg" class='img-fluid img-adjust'>
+      <div class="mt-5 text-center text-md-start width-adjustB">
+        <h1 class="fs-4 mt-5">Stay productive, wherever you are</h1>
+        <p class="mt-4">Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!</p>
+        <div class="mt-4 d-flex justify-content-center justify-content-md-start align-items-center ">
+          <p class="green-text mt-3">See how Fylo works</p>
+          <img src="./images/icon-arrow.svg">
+        </div>
+        <div class="border-success border-bottom mx-auto mx-md-0 mb-4 green-border"></div>
+        <div class="card mx-auto mx-md-0 shadow-lg" style="width: 80%;">
+          <div class="card-body">
+            <img src="./images/icon-quotes.svg" alt="..." class="mb-3">
+            <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine..
+            </p>
+            <div class="d-flex justify-content-start  align-items-center gap-3">
+              <img src="./images/avatar-testimonial.jpg" alt="..." class="img-fluid rounded-circle w-25 h-25">
+              <div class="mt-3">
+                <h1 class="fs-6 mb-0">Kyle Burton</h1>
+                <p class="small">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-blue py-5">
+    <div class="container-xl mx-auto px-3 text-center d-md-flex justify-content-between align-items-center">
+      <div class="width-adjustB text-md-start">
+        <h1 class="mt-4 fs-5">Get early access today</h1>
+        <p class="mt-4">It only takes a minute to sign up and our free starter tier is extremely generous.If you have
+          any
+          questions, our support team would be happy to help you. </p>
+      </div>
+      <div class="width-adjustC">
+        <input placeholder="email@example.com" class="mt-2 form-control w-75 mx-auto mx-md-0 ms-md-auto">
+        <button type="button" class="mt-2 btn btn-primary mx-auto mx-md-0 ms-md-4 rounded-1 btn-2">Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-5">
+    <div class="container-xl mx-auto px-3">
+      <img src="./images/logo.svg" alt="..." class="">
+      <div class="row gap-3 mt-3">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-4">
+            <img src="./images/icon-phone.svg" alt="phone">
+            <p class="mt-3">Phone: +1-543-123-4567</p>
+          </div>
+          <div class="d-flex align-items-center gap-4">
+            <img src="./images/icon-email.svg" alt="email">
+            <p class="mt-3">example@fylo.com</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="d-flex flex-column gap-2">
+            <p>About Us</p>
+            <p>Jobs</p>
+            <p>Press</p>
+            <p>Blog</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="d-flex flex-column gap-2">
+            <p>Contact Us</p>
+            <p>Terms</p>
+            <p>Privacy</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex justify-content-center align-items-center gap-4">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+body {
+  max-width: 1536px;
+  margin: 0 auto;
+}
+h1,
+a {
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+p, a {
+  color: var(--DesaturatedBlue) !important;
+}
+
+.bi {
+  font-size: 2rem;
+}
+.border {
+  height: 50px;
+}
+input {
+  border: 1px solid hsl(243, 87%, 12%) !important;
+}
+button {
+  color: var(--LightGrayishBlue) !important;
+  height: 43px;
+  width: 75%;
+}
+
+.green-text {
+  color: var(--ModerateCyan);
+}
+.section-quotes {
+  background-image: url('./images/bg-curve-mobile.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+.section-blue {
+  background-color: var(--DesaturatedBlue);
+}
+.section-blue h1,
+.section-blue p {
+  color: var(--LightGrayishBlue) !important;
+}
+.green-border {
+  width: 150px !important;
+}
+footer {
+  background-color: var(--VeryDarkBlue);
+}
+footer p {
+  color: var(--LightGrayishBlue) !important;
+}
+.bi-twitter,
+.bi-facebook,
+.bi-instagram {
+  color: var(--LightGrayishBlue);
+}
+
+@media (min-width: 992px) {
+ .img-adjust {
+    width: 450px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-adjust {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .width-adjustA {
+    width: 50%;
+  }
+  button {
+    width: 200px !important;
+  }
+
+  .card {
+    width: 350px !important;
+  }
+  .width-adjustB {
+    width: 45%;
+  }
+  .width-adjustC {
+    width: 45%;
+  }
+  .btn-2 {
+    width: 53% !important;
+  }
+}
